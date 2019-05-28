@@ -44,13 +44,13 @@ When run, the NLP_Project script cleans, splits and reorganizes the data in the 
 Following the data processing, the script is organised base on the language model, vectorization method and classifier used per cell. A total of three classifiers is used on two models.
 
 ## Bag of Words
-* Näive-Bayes
-* SVM
-* Logistic Regression
+* Näive-Bayes - Tested accuracy: 74.71%
+* SVM - Tested accuracy: 76.2%
+* Logistic Regression - Tested accuracy: 74.57%
 ## TF-IDF
-* Näive-Bayes
-* SVM
-* Logistic Regression
+* Näive-Bayes - Tested accuracy: 74.81%
+* SVM - Tested accuracy: 76.57%
+* Logistic Regression - Tested accuracy: 76.46%
 
 ## Tests
 * Bag of Words
