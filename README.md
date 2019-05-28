@@ -41,27 +41,26 @@ It is also required to download the [DATASET](https://www.kaggle.com/kazanova/se
 ## Usage
 
 When run, the NLP_Project script cleans, splits and reorganizes the data in the main dataset. The AllData.csv contains 1.600.000 lines of classified tweets, of which only 1.25% (20.000 lines) is used to train the models.
-Following the data processing, the script is organised base on the language model, vectorization method and classifier used per cell. A total of 3 classifiers is used on two types of vectors.
+Following the data processing, the script is organised base on the language model, vectorization method and classifier used per cell. A total of three classifiers is used on two models.
 
 ## Bag of Words
-* CountVectorizer
-  * Näive-Bayes
-  * SVM
-  * Logistic Regression
- * TF-IDF Vectorizer
-    * Näive-Bayes
-    * SVM
-    * Logistic Regression
+* Näive-Bayes
+* SVM
+* Logistic Regression
+## TF-IDF
+* Näive-Bayes
+* SVM
+* Logistic Regression
 
 ## Tests
-* CountVectorizer
+* Bag of Words
   * Näive-Bayes
   ![Näive-Bayes](https://github.com/Feynlady/tweetBC/blob/master/Test_pictures/Näive_Bayes.png)
   * SVM
   ![SVM](https://github.com/Feynlady/tweetBC/blob/master/Test_pictures/SVM.png)
   * Logistic Regression
   ![LogReg](https://github.com/Feynlady/tweetBC/blob/master/Test_pictures/LogReg.png)
-* TF-IDF Vectorizer
+* TF-IDF
    * Näive-Bayes
    ![TF-IDF Näive-Bayes](https://github.com/Feynlady/tweetBC/blob/master/Test_pictures/TFIDF_Näive_Bayes.png)
    * SVM
