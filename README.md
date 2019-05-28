@@ -46,7 +46,7 @@ Following the data processing, the script is organised base on the language mode
 ## Bag of Words
 * Näive-Bayes - Tested accuracy: 74.71%
 * SVM - Tested accuracy: 76.2%
-* Logistic Regression - Tested accuracy: 74.57%
+* Logistic Regression - Tested accuracy: 75.38%
 ## TF-IDF
 * Näive-Bayes - Tested accuracy: 74.81%
 * SVM - Tested accuracy: 76.57%
