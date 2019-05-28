@@ -1,5 +1,5 @@
 # tweetBC
-Python script for binary classification of social media related text (tweets, comments...etc).
+Python script for binary classification of text extracted from social media (tweets, comments...etc).
 
 ## Motivation
 
