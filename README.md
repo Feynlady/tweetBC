@@ -36,7 +36,7 @@ Two files are needed for the script to run:
 *NLP_Project: this file constitutes the main script, where the parts that need to be necessarily executed are marked as such. Different classifiers can be run separately, according to one's goal.
 *AllData.csv: whole dataset. Different parts of the dataset are used as training and test sets.
 
-It is also required to download the [DATASET](https://www.kaggle.com/kazanova/sentiment140) and include it in the same folder as the main script NLP_Project.
+It is also required to download the [DATASET](https://www.kaggle.com/kazanova/sentiment140), name it 'AllData.csv' and include it in the same folder as the main script NLP_Project.
 
 ## Usage
 
