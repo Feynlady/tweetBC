@@ -54,18 +54,31 @@ Following the data processing, the script is organised base on the language mode
 
 ## Tests
 * Bag of Words
+
   * Näive-Bayes
+  
   ![Näive-Bayes](https://github.com/Feynlady/tweetBC/blob/master/Test_pictures/Näive_Bayes.png)
+  
   * SVM
+  
   ![SVM](https://github.com/Feynlady/tweetBC/blob/master/Test_pictures/SVM.png)
+  
   * Logistic Regression
+  
   ![LogReg](https://github.com/Feynlady/tweetBC/blob/master/Test_pictures/LogReg.png)
+  
 * TF-IDF
+
    * Näive-Bayes
+   
    ![TF-IDF Näive-Bayes](https://github.com/Feynlady/tweetBC/blob/master/Test_pictures/TFIDF_Näive_Bayes.png)
+   
    * SVM
+   
    ![SVM](https://github.com/Feynlady/tweetBC/blob/master/Test_pictures/TFIDF_SVM.png)
+   
    * Logistic Regression
+   
    ![LogReg](https://github.com/Feynlady/tweetBC/blob/master/Test_pictures/TFIDF_LogReg.png)
 
 ## Contributing
