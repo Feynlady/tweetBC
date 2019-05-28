@@ -52,7 +52,7 @@ Following the data processing, the script is organised base on the language mode
 * SVM - Tested accuracy: 76.57%
 * Logistic Regression - Tested accuracy: 76.46%
 
-![Graph](https://github.com/Feynlady/tweetBC/blob/master/Test_pictures/Graph_tweetBC.PNG)
+![Graph](https://github.com/Feynlady/tweetBC/blob/master/Test_pictures/Graph.PNG)
 
 ## Tests
 * Bag of Words
