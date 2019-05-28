@@ -36,6 +36,8 @@ Two files are needed for the script to run:
 *NLP_Project: this file constitutes the main script, where the parts that need to be necessarily executed are marked as such. Different classifiers can be run separately, according to one's goal.
 *AllData.csv: whole dataset. Different parts of the dataset are used as training and test sets.
 
+It is also required to download the [DATASET](https://www.kaggle.com/kazanova/sentiment140) and include it in the same folder as the main script NLP_Project.
+
 ## Usage
 
 When run, the NLP_Project script cleans, splits and reorganizes the data in the main dataset. The AllData.csv contains 1.600.000 lines of classified tweets, of which only 1.25% (20.000 lines) is used to train the models.
@@ -52,13 +54,26 @@ Following the data processing, the script is organised base on the language mode
     * Logistic Regression
 
 ## Tests
-
-
+* CountVectorizer
+  * Näive-Bayes
+  ![Näive-Bayes](https://github.com/Feynlady/tweetBC/blob/master/Test_pictures/Näive_Bayes.png)
+  * SVM
+  ![SVM](https://github.com/Feynlady/tweetBC/blob/master/Test_pictures/SVM.png)
+  * Logistic Regression
+  ![LogReg](https://github.com/Feynlady/tweetBC/blob/master/Test_pictures/LogReg.png)
+* TF-IDF Vectorizer
+   * Näive-Bayes
+   ![TF-IDF Näive-Bayes](https://github.com/Feynlady/tweetBC/blob/master/Test_pictures/TFIDF_Näive_Bayes.png)
+   * SVM
+   ![SVM](https://github.com/Feynlady/tweetBC/blob/master/Test_pictures/TFIDF_SVM.png)
+   * Logistic Regression
+   ![LogReg](https://github.com/Feynlady/tweetBC/blob/master/Test_pictures/TFIDF_LogReg.png)
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 Please make sure to update tests as appropriate.
 
-## License
-[MIT](https://choosealicense.com/licenses/mit/)
+## Credits
+Amanda C. Kane
+Silvia Fallone
